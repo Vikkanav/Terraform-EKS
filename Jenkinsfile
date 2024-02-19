@@ -23,7 +23,7 @@ pipeline {
     stages {
         stage('Git Checkout'){
             steps{
-                git branch: 'main', credentialsId: 'cred', url: 'https://github.com/Dhruvin4530/EKS_Jenkins'
+                git url: 'https://github.com/jaiswaladi2468/Terraform-EKS.git'
             }
         }
         stage('Terraform init'){
