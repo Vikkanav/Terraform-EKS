@@ -37,7 +37,7 @@ variable "type" {
 
 # Key 
 variable "key_name" {
-  default = "Demo-key"
+  default = "Key"
 }
 
 # Instance count
